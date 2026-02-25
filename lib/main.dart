@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:hungry/core/utils/routes.dart';
+import 'package:hungry/core/utils/locator.dart';
 
 void main() {
-  
+  setupServiceLocator();
   runApp(const HungryApp());
 }
 
